@@ -20,7 +20,7 @@ From the above link (realtime use case):
 - Campaign design (market segmentation)
 
 
-# Databases
+# Databases and storage
 
 ## SQL for Big Data
 
@@ -34,6 +34,15 @@ From the above link (realtime use case):
 - MongoDB
 - Elasticsearch
 - Neo4J: Graph database
+
+## Unstructured storage
+
+- Amazon S3
+
+## Memory storage and cache
+
+- Redis
+
 
 # Processing
 
@@ -51,7 +60,7 @@ From the above link (realtime use case):
 
 ## Queuing systems
 
-- RabbitMQ (AMPQ protocol)
+- RabbitMQ (AMQP)
 
 ## Serialization formats
 
@@ -134,7 +143,7 @@ Context-dependent, Expert knowledge
 ![](https://cdn-images-1.medium.com/max/1600/1*tEo4x2-2iOZcnhSF13rUTA.png)
 
 
-## Natural Language Processing
+# Natural Language Processing
 
 - Python's [NLTK](http://www.nltk.org/book/)
 - [Others](https://elitedatascience.com/python-nlp-libraries)
@@ -142,12 +151,23 @@ Context-dependent, Expert knowledge
 - Other feeds
 - Sentiment analysis
 
-# Data scaling and Sysadmin
+# Data mining
+
+Large dataset mining techniques
+
+- Bloom filters...
+
+Basically material in [Stanford's Mining Massive Datasets](http://mmds.org/)
+
+# Scaling, sysadmin and devops
 
 - On premise
 - Cloud
 
 ## Docker containers
+
+- Local development
+- Docker compose
 
 ## Container orchestrators
 
